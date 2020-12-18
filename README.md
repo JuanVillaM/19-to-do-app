@@ -5,19 +5,19 @@ Is an app where you can add, remove tasks, get a list of them and read the full 
 > Juan Villa
 
 ## Development Server
-Install NodeJS on your PC from [NodeJS](https://nodejs.org/en/), open a terminal and navigate to the project folder that you already install, remember run ```npm install``` (for install the /*node_modules/* in your PC).
+Install NodeJS on your PC from [NodeJS](https://nodejs.org/en/), open a terminal and navigate to the project folder that you already install, remember run ```npm install``` (for install the **node_modules** in your PC).
 
 ## How Commands Works
 Commands: You have to run `node app [command]`
 1. `node app add`: Creates a task to do.
-2. `node app remove`: Updates the complete status of a task.
-3. `node app list`: Delete a task.
-4. `node app read`: Read a task.
+2. `node app remove`: Deletes the complete status of a task.
+3. `node app list`: Return all your tasks.
+4. `node app read`: Read a specifically task.
 
 ## How To Run Commands
-- For create tasks run `node app add --title="Task title" --body="Task body"`.
-- For remove an existent tasks run `node app remove --title="Task title`.
-- For get a list of all your tasks run `node app list`.
-- For get read the information of a task run `node app --read="Task title"`.
+- For create a task, run `node app add --title="Task title" --body="Task body"`.
+- For remove an existent task, run `node app remove --title="Task title`.
+- For get a list of all your tasks, run `node app list`.
+- For read the information of a task, run `node app --read="Task title"`.
 > node app add --title="Christmas Gift" --body="Iphone"
 
